@@ -1,2 +1,2 @@
 # go-here
-practice go
+go
