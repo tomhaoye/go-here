@@ -21,7 +21,7 @@ func main() {
 	quit := make(chan int)
 	go func() {
 		for {
-			time.Sleep(1*time.Second)
+			time.Sleep(1 * time.Second)
 			fmt.Println(<-c)
 		}
 		quit <- 0

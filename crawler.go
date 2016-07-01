@@ -13,7 +13,7 @@ type Fetcher interface {
 func Crawl(url string, depth int, fetcher Fetcher) {
 	// TODO: 并行的抓取 URL。
 	// TODO: 不重复抓取页面。
-    // 下面并没有实现上面两种情况：
+	// 下面并没有实现上面两种情况：
 	if depth <= 0 {
 		return
 	}
