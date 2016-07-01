@@ -14,5 +14,6 @@ func main() {
  
      fmt.Println( "host:" , *host)
      fmt.Println( "port:" , *port)
-     fmt.Println( "debug:" , *debug)
+     fmt.Prin
+     tln( "debug:" , *debug)
 }
